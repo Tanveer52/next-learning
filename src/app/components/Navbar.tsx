@@ -40,6 +40,13 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              href="/products"
+              className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 hover:text-white transition duration-300"
+              onClick={toggleMenu}
+            >
+              Products
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
